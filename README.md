@@ -1,3 +1,5 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/weKLDxXt)
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=21200709&assignment_repo_type=AssignmentRepo)
 # 🌿 Proyecto 4 – Análisis de Condicionales en Python (JupyterLite)
 
 Este proyecto forma parte del módulo de programación aplicada al análisis ambiental. 
@@ -44,7 +46,7 @@ Archivo base: `data/muestras_calidad_agua.csv`
 | Notebook | Descripción | Responsable |
 |-----------|-------------|-------------|
 | `0_ejemplo_clase_condicionales.ipynb` | Ejemplo completo de la clase | Todos |
-| `reto1_temperatura.ipynb` | Clasificación térmica y riesgo | Estudiante 1 |
+| `reto1_temperatura.ipynb` | Clasificación térmica y riesgo | Francy |
 | `reto2_ph.ipynb` | Evaluación de pH y alerta química | Estudiante 2 |
 | `reto3_oxigeno.ipynb` | Análisis biológico por oxígeno | Estudiante 3 |
 | `reto4_integracion.ipynb` | Diagnóstico final integrando variables | Estudiante 4 |
