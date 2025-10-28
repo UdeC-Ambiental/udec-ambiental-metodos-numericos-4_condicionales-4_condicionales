@@ -46,7 +46,7 @@ Archivo base: `data/muestras_calidad_agua.csv`
 | Notebook | Descripción | Responsable |
 |-----------|-------------|-------------|
 | `0_ejemplo_clase_condicionales.ipynb` | Ejemplo completo de la clase | Todos |
-| `reto1_temperatura.ipynb` | Clasificación térmica y riesgo | Francy |
+| `reto1_temperatura.ipynb` | Clasificación térmica y riesgo | Francy & Anggie|
 | `reto2_ph.ipynb` | Evaluación de pH y alerta química | Santiago |
 | `reto3_oxigeno.ipynb` | Análisis biológico por oxígeno | Karen |
 | `reto4_integracion.ipynb` | Diagnóstico final integrando variables | Samir |
