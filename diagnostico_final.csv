@@ -1,0 +1,3 @@
+sitio,temperatura,categoria_temp,riesgo_termico,pH,clasificacion_ph,alerta_quimica,oxigeno,nivel_oxigeno,riesgo_biologico,diagnostico_final
+Quebrada Cune (San Francisco),25.2,Alta,Riesgo,6.0,Ácido,Revisión requerida,4.5,Bajo,Riesgo,parcial
+Río Guayuriba (La Mesa),30.5,Alta,Riesgo,5.9,Ácido,Revisión requerida,4.8,Bajo,Riesgo,parcial

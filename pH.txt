@@ -1,0 +1,50 @@
+import pandas as pd
+
+data = {
+    "sitio": [
+        "Río Subachoque",
+        "Quebrada Honda (Facatativá)",
+        "Río Botello (Madrid)",
+        "Afluente San José (El Rosal)",
+        "Río Villeta",
+        "Quebrada Cune (San Francisco)",
+        "Río Tobia (Nocaima)",
+        "Quebrada Negra (La Vega)",
+        "Río Bahamón (Sasaima)",
+        "Río Guayuriba (La Mesa)"
+    ],
+    "pH": [7.2, 6.3, 6.8, 7.9, 8.7, 6.0, 7.4, 7.6, 8.1, 5.9],
+    "oxígeno (mg/L)": [7.8, 6.2, 5.9, 8.3, 6.1, 4.5, 5.2, 7.0, 6.7, 4.8],
+    "temperatura (°C)": [18.5, 19.4, 22.7, 20.1, 28.3, 25.2, 26.9, 24.4, 27.6, 30.5]
+}
+
+df = pd.DataFrame(data)
+
+def evaluar_ph(valor):
+    if 6.5 <= valor <= 8.5:
+        return "pH neutro (óptimo)"
+    elif valor < 6.5:
+        return "Ácido (alerta)"
+    else:
+        return "Básico (alerta)"
+
+df["evaluación pH"] = df["pH"].apply(evaluar_ph)
+
+def evaluar_oxigeno(o2):
+    if o2 < 5:
+        return "Estrés biológico"
+    else:
+        return "Adecuado"
+
+df["evaluación O₂"] = df["oxígeno (mg/L)"].apply(evaluar_oxigeno)
+
+def evaluar_temp(t):
+    if t > 25:
+        return "Alta (puede afectar O₂)"
+    else:
+        return "Normal"
+
+df["evaluación temperatura"] = df["temperatura (°C)"].apply(evaluar_temp)
+
+print("Resultados finales:\n")
+print(df)
